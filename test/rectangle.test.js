@@ -14,14 +14,27 @@ import Rectangle from '../rectangle'
  */
 
 describe('rectangle', () => {
-    const rect = {
+    const inputRect = {
         length: 4,
         width: 5,
-        perimeter: 0,
-        area: 0
+    }
+
+    const expectedRect = {
+        length: 4,
+        width: 5,
+        perimeter: 18,
+        area: 20
     }
     
-    it('Should return and Object containing rectangle properties', () => {
-        expect(Rectangle).to.eql(rect)
+    // it('Should return and Object containing rectangle properties', () => {
+    //     expect(Rectangle).to.eql(rect)
+    // })
+
+    it('Property Perimeter must be equal to sum of sides', () => {
+        expect(Rectangle.perimeter).to.eql(expectedRect.perimeter)
+    })
+
+    it('Property Area must be equal to rect side multiplied by side', () => {
+        expect(Rectangle.area).to.eql(expectedRect.area)
     })
 })
