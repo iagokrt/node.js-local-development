@@ -35,3 +35,30 @@ modifyArray(numbers);
 
 
 // export default nums
+
+// Accepted anwser
+
+// let numbers = [1, 2, 3, 4, 5]
+
+// let expect = [3, 4, 9, 8, 15]
+let result = []
+
+function modifyArray(nums) {
+    for (let i = 0; i < nums.length; i++) {
+        let currentNum = nums[i]
+        
+        // console.log(currentNum)
+        
+        if(currentNum & 1) {
+            // console.log(currentNum)
+            result.push(currentNum * 3)
+            // console.log(result)
+        } else {
+            // console.log(currentNum)
+            result.push(currentNum * 2)
+        }
+       
+    }
+    // console.log(result)
+    return result
+}
