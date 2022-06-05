@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import response from '../dev/script.js'
+import response from '../../exercises/multipleOrNot.js'
 
 describe('beecrowd | 1044', () => {
     let input = '20 21'; // must return if multiple or not
