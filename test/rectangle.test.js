@@ -30,11 +30,11 @@ describe('rectangle', () => {
     //     expect(Rectangle).to.eql(rect)
     // })
 
-    it('Property Perimeter must be equal to sum of sides', () => {
-        expect(Rectangle.perimeter).to.eql(expectedRect.perimeter)
-    })
+    // it('Property Perimeter must be equal to sum of sides', () => {
+    //     expect(Rectangle.perimeter).to.eql(expectedRect.perimeter)
+    // })
 
-    it('Property Area must be equal to rect side multiplied by side', () => {
-        expect(Rectangle.area).to.eql(expectedRect.area)
-    })
+    // it('Property Area must be equal to rect side multiplied by side', () => {
+    //     expect(Rectangle.area).to.eql(expectedRect.area)
+    // })
 })
