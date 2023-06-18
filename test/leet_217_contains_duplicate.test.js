@@ -45,7 +45,19 @@ describe('(217) contains duplicate', (params) => {
             const result = containsDuplicate(nums);
             expect(result).to.be.false;
         })
+
+        it('should return false for empty arrays', () => {
+            const nums = [];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
+          });
     
+        it('should return false for arrays with a single element', () => {
+            const nums = [5];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
+        });
+
     });
 
    
