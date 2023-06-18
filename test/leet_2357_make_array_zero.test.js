@@ -32,31 +32,31 @@ describe('2357. minimum Operations To Zero', (params) => {
     describe('Minimum Operations to Zero', () => {
         it('should return the minimum number of operations to make every element zero', () => {
           const nums = [3, 2, 1, 4, 3];
-          const result = minOperationsToZero(nums);
+          const result = minimumOperations(nums);
           expect(result).to.equal(7);
         });
       
         it('should return 0 if all elements are already zero', () => {
           const nums = [0, 0, 0];
-          const result = minOperationsToZero(nums);
+          const result = minimumOperations(nums);
           expect(result).to.equal(0);
         });
       
         it('should handle empty arrays and return 0', () => {
           const nums = [];
-          const result = minOperationsToZero(nums);
+          const result = minimumOperations(nums);
           expect(result).to.equal(0);
         });
       
         it('should handle arrays with a single non-zero element and return 0', () => {
           const nums = [5];
-          const result = minOperationsToZero(nums);
+          const result = minimumOperations(nums);
           expect(result).to.equal(0);
         });
       
         it('should handle arrays with a single zero element and return 0', () => {
           const nums = [0];
-          const result = minOperationsToZero(nums);
+          const result = minimumOperations(nums);
           expect(result).to.equal(0);
         });
       });
