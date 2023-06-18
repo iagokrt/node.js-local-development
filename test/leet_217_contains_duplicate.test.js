@@ -35,11 +35,15 @@ describe('(217) contains duplicate', (params) => {
     // program test
     describe('Run test on main program', () => {
         it('Should return true if any value appears at least twice in the array', () => {
-            expect(test).to.be.true
+            const nums = [1, 2, 3, 1];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.true;
         })
     
         it('Should return false if every element is distinct in the array', () => {
-            expect(test).to.be.false
+            const nums = [1, 2, 3, 4];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
         })
     
     });
