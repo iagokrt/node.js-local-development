@@ -2,9 +2,8 @@ import { expect } from 'chai'
 
 import fn from '../dev/fo/fn.js'
 
-describe('Testing functions using javascript syntax', (options) => {
+describe('Testing functions using javascript syntax', () => {
     const module = fn;
-    console.log(options);
     const test = fn();
     
     // problem setup test
