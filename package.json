@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "node dev/script.js",
     "laut": "node dev/createFilesFromPrompt.js",
-    "test": "mocha --require @babel/register",
-    "testAll": "mocha --require @babel/register 'test/_tests_/*.js'"
+    "test": "mocha --require @babel/register 'test/_tests_/*.js'",
+    "test-single": "mocha --require @babel/register"
   }
 }

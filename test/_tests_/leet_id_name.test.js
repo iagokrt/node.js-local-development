@@ -1,10 +1,10 @@
 import { expect } from 'chai';
-import leet_481 from '../../dev/leet_481.js';
+import leet_id_name from '../../dev/leet_id_name.js';
 
 describe('Testing functions using JavaScript syntax', () => {
   // problem setup test
   
-  const module = leet_481;
+  const module = leet_id_name;
 
   describe('Test the input based on the arguments', () => {
     it('Should be a function using two parameters', () => {
