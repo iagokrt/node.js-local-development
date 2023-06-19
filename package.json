@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "node dev/script.js",
+    "laut": "node dev/createFilesFromPrompt.js",
     "test": "mocha --require @babel/register"
   }
 }
