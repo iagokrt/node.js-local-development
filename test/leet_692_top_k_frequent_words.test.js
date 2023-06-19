@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import topKFrequent from '../dev/leet_692_top_k_frequent_words'
+import topKFrequent from '../exercises/ar/leet_692_top_k_frequent_words'
 
 describe('692 - Top K Frequent Words ', (params) => {
     /* params is generic based on the program definition 

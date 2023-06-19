@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import topKFrequent from '../dev/leet_347_top_k_frequent_elements'
+import topKFrequent from '../exercises/ar/leet_347_top_k_frequent_elements'
 
 /**
  *  stringGiven an integer array nums, 

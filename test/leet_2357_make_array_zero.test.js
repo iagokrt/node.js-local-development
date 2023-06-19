@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import minimumOperations from '../dev/leet_2357_make_array_zero'
+import minimumOperations from '../exercises/ar/leet_2357_make_array_zero'
 
 
 /**

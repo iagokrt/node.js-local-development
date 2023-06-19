@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import containsDuplicate from '../dev/leet_217_contains_duplicate'
+import containsDuplicate from '../exercises/ar/leet_217_contains_duplicate'
 
 /**
  *  stringGiven an integer array nums, 

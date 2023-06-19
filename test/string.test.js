@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import String from '../dev/string'
+import String from '../dev/fo/string'
 
 /**
  *  string

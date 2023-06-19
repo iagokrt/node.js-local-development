@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import Rectangle from '../dev/rectangle'
+import Rectangle from '../dev/fo/rectangle'
 
 /**
  *  

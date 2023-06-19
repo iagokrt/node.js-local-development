@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const folderName = 'test'; // Replace with your desired default folder name
+const folderName = '_tests_';
 
 function createFilesFromPrompt(fileName) {
   if (!fileName) {
@@ -9,7 +9,7 @@ function createFilesFromPrompt(fileName) {
     process.exit(1);
   }
 
-  const jsFileName = `${fileName}.js`; // create at /dev
+  const jsFileName = `${fileName}.js`;
   const testFileName = `${fileName}.test.js`;
   const testFolderPath = path.join('test', folderName);
 
