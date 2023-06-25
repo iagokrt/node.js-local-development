@@ -1,14 +1,13 @@
-let rectangle = {
+// Exemple v2 - concise version
+const rectangle = {
     length: 4,
     width: 5,
-    // perimeter(): {},
-    // area(): {}
-}
+    get perimeter() {
+        return 2 * (this.length + this.width);
+    },
+    get area() {
+        return this.length * this.width;
+    },
+};
 
-let perimeter = rectangle.length*2 + rectangle.width*2;
-let area = rectangle.length*rectangle.width
-
-rectangle.perimeter = perimeter
-rectangle.area = area
-
-export default rectangle
+export default rectangle;
