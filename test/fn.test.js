@@ -8,10 +8,10 @@ describe('Testing functions using javascript syntax', () => {
     
     // problem setup test
     describe('Test the input based on the arguments', () => {
-        // it('Should be a function. using two parameters', () => {
-        //     expect(module).to.be.a('function');
-        //     expect(module.length).to.equal(2);
-        // });
+        it('Should be a function. using two parameters', () => {
+            expect(module).to.be.a('function');
+            expect(module.length).to.equal(2);
+        });
       });
 
     // program test

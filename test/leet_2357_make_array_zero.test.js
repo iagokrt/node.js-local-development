@@ -19,46 +19,46 @@ describe('2357. minimum Operations To Zero', (params) => {
     
     // problem setup test
     describe('problem setup tests', () => {
-        // it('Should be a function, have only one argument (an array)', () => {
-        //     expect(module).to.be.a('function');
-        //     expect(module.length).to.equal(1);
-        //     const sampleArgument = [1, 2, 3];
-        //     expect(Array.isArray(sampleArgument)).to.be.true;
-        //     // non-negative integer
-        // });
+        it('Should be a function, have only one argument (an array)', () => {
+            expect(module).to.be.a('function');
+            expect(module.length).to.equal(1);
+            const sampleArgument = [1, 2, 3];
+            expect(Array.isArray(sampleArgument)).to.be.true;
+            // non-negative integer
+        });
     });
 
     // program test
     describe('Minimum Operations to Zero', () => {
-        // it('should return the minimum number of operations to make every element zero', () => {
-        //   const nums = [3, 2, 1, 4, 3];
-        //   const result = minimumOperations(nums);
-        //   expect(result).to.equal(7);
-        // });
+        it('should return the minimum number of operations to make every element zero', () => {
+          const nums = [3, 2, 1, 4, 3];
+          const result = minimumOperations(nums);
+          expect(result).to.equal(7);
+        });
       
-        // it('should return 0 if all elements are already zero', () => {
-        //   const nums = [0, 0, 0];
-        //   const result = minimumOperations(nums);
-        //   expect(result).to.equal(0);
-        // });
+        it('should return 0 if all elements are already zero', () => {
+          const nums = [0, 0, 0];
+          const result = minimumOperations(nums);
+          expect(result).to.equal(0);
+        });
       
-        // it('should handle empty arrays and return 0', () => {
-        //   const nums = [];
-        //   const result = minimumOperations(nums);
-        //   expect(result).to.equal(0);
-        // });
+        it('should handle empty arrays and return 0', () => {
+          const nums = [];
+          const result = minimumOperations(nums);
+          expect(result).to.equal(0);
+        });
       
-        // it('should handle arrays with a single non-zero element and return 0', () => {
-        //   const nums = [5];
-        //   const result = minimumOperations(nums);
-        //   expect(result).to.equal(0);
-        // });
+        it('should handle arrays with a single non-zero element and return 0', () => {
+          const nums = [5];
+          const result = minimumOperations(nums);
+          expect(result).to.equal(0);
+        });
       
-        // it('should handle arrays with a single zero element and return 0', () => {
-        //   const nums = [0];
-        //   const result = minimumOperations(nums);
-        //   expect(result).to.equal(0);
-        // });
+        it('should handle arrays with a single zero element and return 0', () => {
+          const nums = [0];
+          const result = minimumOperations(nums);
+          expect(result).to.equal(0);
+        });
       });
 
    

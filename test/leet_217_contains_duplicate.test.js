@@ -24,40 +24,39 @@ describe('(217) contains duplicate', (params) => {
     
     // problem setup test
     describe('Test the input based on the arguments', () => {
-        // it('Should be a function, have only one argument (an array)', () => {
-        //     expect(module).to.be.a('function');
-        //     expect(module.length).to.equal(1);
-        //     const sampleArgument = [1, 2, 3];
-        //     expect(Array.isArray(sampleArgument)).to.be.true;
-        // });
+        it('Should be a function, have only one argument (an array)', () => {
+            expect(module).to.be.a('function');
+            expect(module.length).to.equal(1);
+            const sampleArgument = [1, 2, 3];
+            expect(Array.isArray(sampleArgument)).to.be.true;
+        });
       });
 
     // program test
     describe('Run test on main program', () => {
-        // it('Should return true if any value appears at least twice in the array', () => {
-        //     const nums = [1, 2, 3, 1];
-        //     const result = containsDuplicate(nums);
-        //     expect(result).to.be.true;
-        // })
+        it('Should return true if any value appears at least twice in the array', () => {
+            const nums = [1, 2, 3, 1];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.true;
+        })
     
-        // it('Should return false if every element is distinct in the array', () => {
-        //     const nums = [1, 2, 3, 4];
-        //     const result = containsDuplicate(nums);
-        //     expect(result).to.be.false;
-        // })
+        it('Should return false if every element is distinct in the array', () => {
+            const nums = [1, 2, 3, 4];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
+        })
 
-        // it('should return false for empty arrays', () => {
-        //     const nums = [];
-        //     const result = containsDuplicate(nums);
-        //     expect(result).to.be.false;
-        //   });
+        it('should return false for empty arrays', () => {
+            const nums = [];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
+          });
     
-        // it('should return false for arrays with a single element', () => {
-        //     const nums = [5];
-        //     const result = containsDuplicate(nums);
-        //     expect(result).to.be.false;
-        // });
-
+        it('should return false for arrays with a single element', () => {
+            const nums = [5];
+            const result = containsDuplicate(nums);
+            expect(result).to.be.false;
+        });
     });
 
    

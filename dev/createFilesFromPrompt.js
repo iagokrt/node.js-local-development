@@ -42,6 +42,24 @@ describe('Testing functions using JavaScript syntax', () => {
     // Add your test cases here
   });
 });`;
+/** To-do: refactor template:
+ * import { expect } from 'chai';
+import ${fileName} from '../../dev/${fileName}.js';
+
+describe('Testing functions using JavaScript syntax', () => {
+  describe('Input validation', () => {
+    it('should be a function with two parameters', () => {
+      expect(${fileName}).to.be.a('function');
+      expect(${fileName}.length).to.equal(2);
+    });
+  });
+
+  describe('Main program functionality', () => {
+    // Add your test cases here
+  });
+});
+ * 
+*/
 
   const devFilePath = path.join(devFolderPath, jsFileName);
   const testFilePath = path.join(testFolderPath, testFileName);
